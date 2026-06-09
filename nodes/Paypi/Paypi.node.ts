@@ -3,14 +3,14 @@ import { defaultDescription } from './resources/default';
 
 export class Paypi implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'paypi',
+		displayName: 'Paypi',
 		name: 'N8nDevPaypi',
 		icon: { light: 'file:./paypi.png', dark: 'file:./paypi.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'OTP email verification API by PayPI.',
-		defaults: { name: 'paypi' },
+		defaults: { name: 'Paypi' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

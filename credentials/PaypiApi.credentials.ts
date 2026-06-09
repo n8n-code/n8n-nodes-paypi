@@ -8,7 +8,7 @@ import type {
 export class PaypiApi implements ICredentialType {
 	name = 'N8nDevPaypiApi';
 
-	displayName = 'paypi API';
+	displayName = 'Paypi API';
 
 	icon: Icon = { light: 'file:../nodes/Paypi/paypi.png', dark: 'file:../nodes/Paypi/paypi.dark.png' };
 
@@ -22,7 +22,7 @@ export class PaypiApi implements ICredentialType {
 			default: 'https://ev.apis.paypi.dev',
 			required: true,
 			placeholder: 'https://ev.apis.paypi.dev',
-			description: 'The base URL of your paypi API server',
+			description: 'The base URL of your Paypi API server',
 		},
 		{
 			displayName: 'API Key',

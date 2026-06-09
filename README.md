@@ -53,9 +53,13 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Default | Post check verification code, Post send verification code |
+<details>
+<summary><b>Default</b> (2 operations)</summary>
+
+- Post Check verification code
+- Post Send verification code
+
+</details>
 
 ---
 
